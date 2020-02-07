@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test V1 website</title>
+
+        <link rel="stylesheet" type="text/css" href="static/styling.css"/>
+    </head>
+
+    <body>
+
+        <div class="header-flex">
+            <img id="logoIMG" src="../static/ISAKNOW_logo.png" alt="ISAKNOW Logo">
+
+            <div class="header">Bearly Awake</div>
+
+            <img id="textIMG" src="../static/ISAKNOW_text.png" alt="ISAKNOW Text">
+            
+        </div>
+
+        <div class="flex-container">
+
+            
+            {% for i in range(length) %}
+
+                <div class="row">
+                
+                    <h2>{{ titles[loop.index - 1] }}</h2>
+                    <h3>{{ submitters[loop.index - 1] }} - {{ audiences[loop.index - 1] }}</h3>
+                    
+                    {% for j in texts[i] %}
+                        <p>
+                        {% if j == "" %}
+                            <br>
+                        {% else %}
+                            {{ j }}
+                        {% endif %}
+
+                        
+                        </p>
+                    {% endfor %}
+                    
+
+                </div>
+            {% endfor %}
+        
+        </div>
+
+        
+
+    </body>
+</html>
