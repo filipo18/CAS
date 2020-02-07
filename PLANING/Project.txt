@@ -1,0 +1,34 @@
+- Barleyawake 
+- Constantly updated messeges
+- Classrooms 
+
+KAC and ASAMA
+	Barleyawake
+		- Show titles
+		- Loop through messeges
+		- QR codes
+			- link for every messege (data base)
+
+	Constantly updated messeges
+		- Input 
+			-Facutlty messeges 
+			- (Website)
+				- make it preaty
+			- Google API (School Google acounts)
+			- Priorities
+				- 3 leveles 
+			- DEVELOPING STAGE are studens allowed to post in ASAMA and KAC
+
+	Data base
+		- Geting messeges from matrix
+		- Geting messeges from input website
+
+	Classrooms
+		- Layout 
+		- Getting timetables
+
+HOUSES
+	Constantly updated messeges
+		- Faculty messeges
+		- House mentors 
+		- RAs and others		

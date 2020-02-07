@@ -1,0 +1,22 @@
+STAGE 1
+1. Create input website (v1 no google acounts) + irvin starts working on classrooms
+	a. login based priorities
+	b. input messege
+2. Database + setting up server 
+	 1. messeges from matrix to our data base
+	   	a. Seperate link for each messege
+	   	b. generate QR
+	2.organizing messeges from input
+
+3. Show it on our website
+	Matrix
+		a. Titles runining
+			1. QR code
+		b. display text
+	Messeges 
+		a. Show them in priority order
+
+STAGE 2
+1. Google acounts based login
+2. Mentor and RA messeges in houses
+3. Visual designe
