@@ -1,0 +1,66 @@
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 29%;
+	height: 100%;
+	padding: 10px;
+	margin: 2px;
+
+}
+
+/* Clear floats after the columns */
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#title-col {
+    width: 25%;
+}
+
+#title-img {
+	width: 50%;
+	margin-left: 25%;
+}
+
+#arrow-col {
+    width: 5%;
+    padding-top: 3%;
+}
+
+#contents-col {
+    background-image: url("../static/bearly_contents.svg");
+    background-size: 100% 100%;
+    height: 650px;
+    padding-top: 2%
+}
+
+.box {
+    position: relative;
+    text-align: left;
+}
+
+.title-text {
+    position: absolute;
+    top: 15%;
+    left: 20px;
+}
+
+#bearly-content {
+    padding: 10px;
+    padding-top: 50px
+}
+
+.box > * {
+	width: 100%;
+	padding: 5px;
+}
+
+
+#student-msg-img {
+    width: 100%;
+}
+
+
+

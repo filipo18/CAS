@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body, html {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+body a, html a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2em;
+}
+
+header .logo {
+  color: black;
+  font-weight: bold;
+}
+
+header .name-btn {
+  width: 18px;
+  float: right;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
+
+
+.vertTranslate {
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
+  margin-top: 10%;
+}
+
+.vertTranslate2 {
+  -webkit-transition: 6s;
+  -moz-transition: 6s;
+  -ms-transition: 6s;
+  -o-transition: 6s;
+  transition: 6s;
+  margin-top: 10%;
+}
+
+
+
